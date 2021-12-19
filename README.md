@@ -5,6 +5,8 @@ Deseamos un programa que muestre el primer segmento de datos de un archivo BMP. 
 de datos en este primer segmento, pero es un hecho que deben mostrarse en formato hexadecimal, para que se
 respeten el número de bytes que requiere la especificación.
 
+![image](https://user-images.githubusercontent.com/90359568/146662598-ba539e14-a5c2-4412-987b-d9d5ea9d4b5d.png)
+
 
 bfType
 Los dos primeros caracteres corresponden al ASCI ‘B’ y ‘M’ . El estandar define otras posibles letras, pero
@@ -22,3 +24,6 @@ bien establecido en que byte inicia la información del primer pixel. Estos byte
 representa el mapa de bits, en donde inicia la información, propiamente del mapa de bits
 Nota: La especificación real exige que los datos sean asentados bajo formato Little Endian, pero para esta
 asignación se omitirá esa parte del requerimiento.
+![image](https://user-images.githubusercontent.com/90359568/146662612-db1ef192-5828-4ce5-b7fa-525b720d1eb9.png)
+![image](https://user-images.githubusercontent.com/90359568/146662625-d230ed7c-7141-4fb2-a7c5-0c3e533b4924.png)
+
